@@ -1,0 +1,16 @@
+.bottom {
+  height: 12vh;
+  background-color: var(--dark);
+  color: var(--white);
+  text-align: center;
+}
+
+.bottom p {
+  padding: 0.5em 0;
+}
+
+.bottom p span {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: var(--yellow);
+}

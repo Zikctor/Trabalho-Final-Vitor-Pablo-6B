@@ -1,0 +1,57 @@
+.lista {
+  min-height: 100vh;
+  background-image: linear-gradient(var(--purple), var(--dark-purple));
+  color: var(--white);
+}
+
+.lista h1 {
+  margin: 1.2em 1em;
+}
+
+.grade {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.produto {
+  height: 35vh;
+  width: 16vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.dados {
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  opacity: .9;
+  visibility: hidden;
+}
+
+.dados p {
+  margin: .8em;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.produto:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.produto:hover .dados, .produto:hover p {
+  visibility: visible;
+  z-index: 1;
+  background-color: var(--dark);
+}
+
+.produto img {
+  position: absolute;
+  width: 8vw;
+}

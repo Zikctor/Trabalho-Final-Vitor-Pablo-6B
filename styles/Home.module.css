@@ -1,0 +1,172 @@
+.ctasection {
+  height: 100vh;
+  background-image: linear-gradient(var(--purple), var(--dark-purple));
+}
+
+.ctabox {
+  height: 60vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 4.5em 1.6em;
+  padding: .5em 2em;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.ctabox h1 {
+  font-size: 2.4em;
+}
+
+.ctabtn {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1.2em 2em;
+  background-color: var(--dark-yellow);
+  border-radius: 1.6em;
+  transition: .3s;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.ctabtn:hover {
+  scale: 1.12;
+  background-color: var(--yellow);
+}
+
+.topimg {
+  position: absolute;
+  top: 30%;
+  left: 56%;
+  height: 40vh;
+  clip-path: polygon(56% 0, 94% 0, 75% 100%, 20% 100%);
+  opacity: 0.8;
+  scale: 1.4;
+  border: .5em solid var(--yellow);
+  padding: 1em 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.descone {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-image: linear-gradient(var(--dark-purple), var(--purple));
+}
+
+.descone h2 {
+  position: absolute;
+  margin-top: 3em;
+  font-size: 2em;
+  color: var(--white);
+}
+
+.descone img {
+  position: relative;
+  top: 30%;
+  left: -8%;
+  scale: .8;
+  clip-path: polygon(28% 0, 73% 0, 94% 100%, 48% 100%);
+  border: .5em solid var(--yellow);
+  padding: 1em 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.descone div {
+  position: relative;
+  top: -16%;
+  right: 6.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  width: 35%;
+  color: var(--white);
+  font-size: 1.2em;
+}
+
+.descone div h3 {
+  font-size: 1.64em;
+}
+
+.desctwo {
+  height: 100vh;
+  background-image: linear-gradient(var(--purple), var(--dark-purple));
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.desctwo img {
+  position: relative;
+  top: 22%;
+  left: -8%;
+  scale: .8;
+  clip-path: polygon(23% 0, 71% 0, 95% 100%, 43% 100%);
+  border: .5em solid var(--yellow);
+  padding: 1em 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.desctwo div {
+  position: relative;
+  top: -20%;
+  left: 6.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  width: 35%;
+  color: var(--white);
+  font-size: 1.2em;
+}
+
+.desctwo div h3 {
+  font-size: 1.64em;
+}
+
+.descthree {
+  height: 100vh;
+  background-image: linear-gradient(var(--dark-purple), var(--purple));
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.descthree h2 {
+  position: absolute;
+  margin-top: 3em;
+  font-size: 2em;
+  color: var(--white);
+}
+
+.descthree img {
+  position: relative;
+  top: 20%;
+  scale: .8;
+  clip-path: polygon(41% 0, 79% 0, 57% 100%, 13% 100%);
+  border: .5em solid var(--yellow);
+  padding: 1em 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.descthree div {
+  position: relative;
+  top: -28%;
+  right: 6.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  width: 35%;
+  color: var(--white);
+  font-size: 1.2em;
+}
+
+.descthree div h3 {
+  font-size: 1.64em;
+}

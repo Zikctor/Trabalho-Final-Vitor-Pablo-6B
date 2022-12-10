@@ -1,0 +1,55 @@
+.allproduto {
+  min-height: 100vh;
+  background-image: linear-gradient(var(--dark-purple), var(--purple));
+}
+
+.bodyprod {
+  height: 78vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.imgprod {
+  height: 64vh;
+  width: 40vw;
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.imgprod img {
+  height: 30vw;
+}
+
+.dadosprod {
+  position: relative;
+  top: -64%;
+  width: 40vw;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.dadosprod * {
+  padding: .5em 0;
+}
+
+.dadosprod *:first-child {
+  font-size: 2.4em;
+}
+
+.dadosprod *:nth-child(2) {
+  font-size: 1.2em;
+}
+
+.dadosprod *:nth-child(3) {
+  font-size: 1.6em;
+  color: var(--yellow);
+}
+
+.dadosprod *:nth-child(4) {
+  font-size: 2em;
+}

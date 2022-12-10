@@ -1,0 +1,43 @@
+.navigation {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: 800;
+  letter-spacing: .05em;
+  margin: .8em;
+  padding: .56em;
+  background-color: var(--dark);
+  color: var(--yellow);
+}
+
+.navtag {
+  width: 40%;
+  height: 100%;
+  margin-right: 2em;
+}
+
+.navtag * {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: .4em;
+  list-style: none;
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.navtag * * {
+  width: auto;
+}
+
+.navtag * *:hover {
+  color: var(--yellow);
+}
