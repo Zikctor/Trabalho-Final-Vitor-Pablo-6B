@@ -4,7 +4,8 @@
 }
 
 .bodyprod {
-  height: 78vh;
+  height: 90vh;
+  padding: 2em;
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -22,7 +23,7 @@
 }
 
 .imgprod img {
-  height: 30vw;
+  width: 20vw;
 }
 
 .dadosprod {

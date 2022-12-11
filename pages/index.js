@@ -19,7 +19,7 @@ export default function Home (){
           Satisfação nossa é poder oferecer o melhor de tudo para compradores que prezam pela qualidade,
           satisfazendo assim nossos clientes: "Uau! Tá ótimo! TÁBOM!"
         </p>
-        <a href='/listaProdutos' as='/listaDeProdutos' className={styles.ctabtn}>CONFIRA</a>
+        <Link href='/listaProdutos' as='/listaDeProdutos' className={styles.ctabtn}>CONFIRA</Link>
       </div>
     </main>
     <img className={styles.topimg} src="https://img.freepik.com/premium-photo/bill-shopping-cart-floating-purple-background-with-smartphone-shop-store-online-concept-cartoon-minimal-discount-promotion-sale-banner-website-3d-render-illustration_598821-1257.jpg?w=2000" alt="representação abstrata de loja online" />
